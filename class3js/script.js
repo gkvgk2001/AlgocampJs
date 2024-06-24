@@ -77,6 +77,45 @@ else{
 }
 
 
+//else if
+
+console.log("else if block")
+
+let usersubscription = "super";
+
+if(usersubscription == "unsubsribed"){
+    console.log("Show pricing page")
+}
+else if(usersubscription == "super"){
+    console.log("Show only Hindi page")
+}
+
+else if(usersubscription == "premium"){
+    console.log("Show all content")
+}
+
+//Nested if else
+
+console.log("Nested if else")
+
+let userhasprimesubscription = true;
+let userliongatesubscription = false;
+
+let userhassonysubscription = true;
+
+if(userhasprimesubscription){
+
+    if(userliongatesubscription){
+        console.log("Show John wick")
+    }
+    else if (userhassonysubscription){
+        console.log("Show Guradian")
+    }
+    else{
+        console.log("Show Panchayat")
+    }
+}
+
 
 
 
